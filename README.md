@@ -84,45 +84,6 @@ In how many steps can u say with guarantee that you can escape out of the room?
 ---
 
 <details>
-<summary><strong>Count triangles</strong>
-
-<strong>Level:1</strong>
-![Level 1](images/level1.jpeg)
-
-<strong>Level:2</strong>
-![Level 2](images/level2.jpeg)</summary>
-
-**Answer:**
-
-## Solution:
-
-There are multiple ways to count this. One is something 
-@divyanshjain learnt during his prep for NTSE, to directly come to a general formulae to find number of triangles formed:
-
-Basically for a given base, if there are _n_ lines emerging from it, the number of trianges are nc2.
-This number when multiplied by the number of unique bases, gives the total answer.
-
-![General](images/general_idea.jpeg)
-
-Again there are multiple ways to count this, and you don't have to remember any formulae. Below is the solution provided by @adityaagarwal
-
-![Official solution](images/agarwal.jpeg)
-
-Another way of counting this as done by @somyajeet and @aryan is
-```
-(4c2*1 + 4c1*2)*5 + 5c2
-```
-(Proof is left as an exercise for the reader)
-
-## Answer
-
-`80` for both level-1 and level-2
-
-</details>
-
----
-
-<details>
 <summary><strong>Random sequence</strong>
 
 Find the next number in the sequence:
@@ -131,7 +92,10 @@ Find the next number in the sequence:
 
 **Answer:**
 
-*Answer not provided in the repository*
+
+1^0-(-1),2^1-0,3^2-1,4^3-2,5^4-3,6^5-4
+
+*Answer by yashvardhan jain*
 
 </details>
 
@@ -239,9 +203,7 @@ MS Dhoni rolls three fair standard six-sided dice. Then he looks at all the roll
 
 **Answer:**
 
-1^0-(-1),2^1-0,3^2-1,4^3-2,5^4-3,6^5-4
-
-*Answer by yashvardhan jain*
+Pattern: _number of set bits in the binary representation of numbers 1...n_
 
 </details>
 
@@ -436,6 +398,46 @@ Lets say 10% is very smart so they pick 1. 20% can be random so i would pick 37 
 You can say that 8-20 is a good range.
 Actually a game theory proff in Yale uni did this experiment in his class and his results were like this: (not exact) 22, 25, 13, 9, etc. 
 so we can see the weighted scoring holds up to some extent
+</details>
+
+---
+
+
+<details>
+<summary><strong>Count triangles</strong>
+
+<strong>Level:1</strong>
+![Level 1](images/level1.jpeg)
+
+<strong>Level:2</strong>
+![Level 2](images/level2.jpeg)</summary>
+
+**Answer:**
+
+## Solution:
+
+There are multiple ways to count this. One is something 
+@divyanshjain learnt during his prep for NTSE, to directly come to a general formulae to find number of triangles formed:
+
+Basically for a given base, if there are _n_ lines emerging from it, the number of trianges are nc2.
+This number when multiplied by the number of unique bases, gives the total answer.
+
+![General](images/general_idea.jpeg)
+
+Again there are multiple ways to count this, and you don't have to remember any formulae. Below is the solution provided by @adityaagarwal
+
+![Official solution](images/agarwal.jpeg)
+
+Another way of counting this as done by @somyajeet and @aryan is
+```
+(4c2*1 + 4c1*2)*5 + 5c2
+```
+(Proof is left as an exercise for the reader)
+
+## Answer
+
+`80` for both level-1 and level-2
+
 </details>
 
 ---
