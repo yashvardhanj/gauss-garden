@@ -1,6 +1,10 @@
 ## Random Puzzles and Brain-Teasers
 
-This repository contains a collection of intriguing puzzles and brain-teasers spanning various domains, including mathematics, machine learning, and competitive programming.
+This repository contains (or is supposed to contain) a collection of intriguing puzzles and brain-teasers spanning various domains, including mathematics, machine learning, and competitive programming.
+
+
+**Contributing:**
+Feel free to add more new problems by opening a PR
 
 ---
 
@@ -150,7 +154,19 @@ For which of the values of $x$, is $f(x) < 0$ ?
 
 **Answer:**
 
-*Answer not provided in the repository*
+1. f(p*1) = f(p)+f(1) 
+=> f(1) = 0
+
+2. f(1) = f(x) + f(1/x) = 0
+=> f(x) = -f(1/x)
+
+3. f(p1*p2) = f(p1)+ f(p2) = p1 + p2
+
+now, it should be easy to solve for each.
+for example, 
+f(17/32) = f(17)- f(32) = 17 - (2+2+2+2+2) = 1
+
+ans is (e)
 
 </details>
 
@@ -209,7 +225,7 @@ MS Dhoni rolls three fair standard six-sided dice. Then he looks at all the roll
 
 **Answer:**
 
-*Answer not provided in the repository*
+*Answer not available*
 
 </details>
 
