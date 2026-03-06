@@ -441,3 +441,17 @@ Another way of counting this as done by @somyajeet and @aryan is
 </details>
 
 ---
+<details>
+<summary>
+Let P(x) be a polynomial with integer coefficients that satisfies P(17) = 10 and P(24) = 17.
+Given that P(n) = n+3 has two distinct integer solutions n1 and n2, find the product of n1 and n2.</summary>
+
+**Yashvardhan's Answer ( Wrong ):**
+asically Q(x)= P(x)-n-3
+and T(x)= Q(x)+10
+and T(x) roots are 17,24
+so the value of the constant is 408 in T(x), so the value of constant in Q(x) should be 408-10
+
+
+</details>
+
